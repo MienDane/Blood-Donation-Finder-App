@@ -4,8 +4,4 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#EA4528</color>
     <color name="light_pink">#FFE4E1</color>
-    <color name="addcartegory">#000</color>
-    <color name="Text_title">#000</color>
-    <color name="input_color">#D3D3D3</color>
-    <color name="gray_search">#F5F5F5</color>
 </resources>

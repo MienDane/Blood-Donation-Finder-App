@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,15 +13,22 @@
         android:theme="@style/Theme.Project_donate_flood"
         tools:targetApi="31">
         <activity
-            android:name=".Welcome_page1"
-            android:exported="false">
-
-        </activity>
-        <activity
-            android:name=".Receipient_homepage"
+            android:name=".blood_category"
             android:exported="false" />
         <activity
-            android:name=".Donor_homepage"
+            android:name=".Blood_stock_hospital"
+            android:exported="false" />
+        <activity
+            android:name=".Request_form"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_page"
+            android:exported="false" />
+        <activity
+            android:name=".request_detail"
+            android:exported="false" />
+        <activity
+            android:name=".Select_role"
             android:exported="false" />
         <activity
             android:name=".Login_page"
@@ -41,6 +46,12 @@
             android:name=".Welcome_page3"
             android:exported="false" />
         <activity
+            android:name=".Welcome_page2"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome_page1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -49,13 +60,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        <service android:name=".service.MyFirebaseMessagingService"-->
-<!--            android:exported="false"-->
-<!--            android:enabled="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="com.google.firebase.MESSAGING_EVENT" />-->
-<!--            </intent-filter>-->
-<!--        </service>-->
     </application>
 
 </manifest>

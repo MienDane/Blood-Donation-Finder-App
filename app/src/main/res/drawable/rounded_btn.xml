@@ -5,5 +5,4 @@
     <corners android:radius="16dp"/> <!-- Border radius -->
     <solid android:color="#EA4528"/> <!-- Button background color -->
     <padding android:left="10dp" android:right="10dp" android:top="5dp" android:bottom="5dp"/>
-
 </shape>
