@@ -19,6 +19,12 @@
             android:name=".Blood_stock_hospital"
             android:exported="false" />
         <activity
+            android:name=".blood_stock_by_category"
+            android:exported="false"/>
+        <activity
+            android:name=".blood_request_category"
+            android:exported="false"/>
+        <activity
             android:name=".Request_form"
             android:exported="false" />
         <activity

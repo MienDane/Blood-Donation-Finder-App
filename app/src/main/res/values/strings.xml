@@ -19,6 +19,14 @@
     <string name="logout">Log out</string>
     <string name="become_donor">Become a Donor</string>
     <string name="find_donor">Looking for a Donor</string>
+    <string name="calmette_hospital_phnom_penh">Calmette Hospital Phnom Penh</string>
+    <string name="stock_blood_group">Stock Blood Group</string>
+    <string name="location_3_9km">Location (3.9Km)</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="_855_12_345_678">+855 12 345 678</string>
+    <string name="get_help">Get Help</string>
+    <string name="khmer_soviet_hospital_friendship">Khmer Soviet Hospital Friendship</string>
+    <string name="stock_blood_group_1">Stock Blood Group</string>
 
 
 </resources>
